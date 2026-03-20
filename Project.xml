@@ -156,6 +156,10 @@
 	<!-- Now android 11 and newer versions block "Access to all archives" if is not defined like a permission here -->
 	<section if="android">
 	  <config:android targetSdkVersion="33" minSdkVersion="21" />
+      <config:android
+		  activity="org.haxe.lime.GameActivity"
+		  android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|uiMode"
+      />
 	  <config:android>
 		  <application android:requestLegacyExternalStorage="true" />
       </config:android>
