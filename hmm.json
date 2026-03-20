@@ -34,8 +34,10 @@
     },
     {
       "name": "hxcpp",
-      "type": "haxelib",
-      "version": "4.2.1"
+      "type": "git",
+      "dir": null,
+      "ref": "main",
+      "url": "https://github.com/Psych-Slice/hxcpp-mobile"
     },
     {
       "name": "hxCodec",
