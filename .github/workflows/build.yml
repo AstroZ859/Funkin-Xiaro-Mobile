@@ -20,7 +20,7 @@ on:
         type: string
 
 env:
-  HAXE_VERSION: 4.2.1
+  HAXE_VERSION: 4.2.5
   PROJECT_NAME: FunkinXiaro
 
 jobs:
