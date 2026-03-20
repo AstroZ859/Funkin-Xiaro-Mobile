@@ -5,7 +5,7 @@
       "type": "git",
       "dir": null,
       "ref": "main",
-      "url": "https://github.com/MaysLastPlays-Stuff/lime-h"
+      "url": "https://github.com/AstroZ859/lime-mobile"
     },
     {
       "name": "openfl",
@@ -34,8 +34,10 @@
     },
     {
       "name": "hxcpp",
-      "type": "haxelib",
-      "version": "4.2.1"
+      "type": "git",
+      "dir": null,
+      "ref": "master",
+      "url": "https://github.com/CodenameCrew/cne-hxcpp"
     },
     {
       "name": "hxCodec",
