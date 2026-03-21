@@ -16,7 +16,7 @@ jobs:
         include:
           - name: Android
             os: macos-15
-            buildArgs: "android -final -D officialBuild"
+            buildArgs: "android -final -D officialBuild -Darm64"
             artifactName: androidBuild
             artifactPath: "export/release/android/bin/app/build/outputs/apk/release/*.apk"
     uses: ./.github/workflows/build.yml
