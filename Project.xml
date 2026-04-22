@@ -158,11 +158,8 @@
 	<!-- Do whatever you want I'm tired uninstall and install everytime -->
 	<!-- Now android 11 and newer versions block "Access to all archives" if is not defined like a permission here -->
 	<section if="android">
-	  <config:android targetSdkVersion="34" minSdkVersion="21" />
-      <!--<config:android
-		  activity="org.haxe.lime.GameActivity"
-		  android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|uiMode"
-      />-->
+	  <config type="android" gradle-version="8.10.2" gradle-plugin="8.8.0" ndkVersion="27.3"
+		  minimum-sdk-version="26" target-sdk-version="35"  />
 	  <config:android>
 		  <application android:requestLegacyExternalStorage="true" />
       </config:android>
